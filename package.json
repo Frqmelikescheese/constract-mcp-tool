@@ -1,0 +1,12 @@
+{
+  "name": "constract-mcp-tool",
+  "version": "1.0.5",
+  "type": "module",
+  "bin": { "constract-mcp-tool": "dist/index.js" },
+  "files": ["dist", "LICENSE"],
+  "scripts": { "build": "tsc" },
+  "dependencies": { "@modelcontextprotocol/sdk": "latest", "zod": "latest" },
+  "devDependencies": { "@types/node": "latest", "typescript": "latest" },
+  "author": "Frqme",
+  "license": "SEE LICENSE IN LICENSE"
+}
